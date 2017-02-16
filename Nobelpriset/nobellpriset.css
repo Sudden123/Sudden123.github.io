@@ -56,7 +56,7 @@ footer{
 ul{
 	list-style:none;
 	background-color:#936;
-	text-align:center;
+	text-align:center;;
 	padding:0;
 	margin:0;
 }
@@ -89,4 +89,9 @@ a:hover{
 	color:#039;
 	font-weight:bold;
 }
+
+h1{
+	font-family:"Times New Roman", Times, serif;
+}
+
 	
