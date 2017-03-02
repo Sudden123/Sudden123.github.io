@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Skriv en siffra eller error</title>
+</head>
+
+<body>
+	<p><b id="boldStuff"></b></p>
+    <input type="button" onClick="changeText()" value="Skriv ett tal"/>
+	
+	<script language="javascript">
+	
+		function changeText()
+		{
+		
+		var minText=prompt("Skriv ditt tal","Skriv ditt tal här");
+		
+		var tal = parseInt(minText);
+		
+		
+		
+		if(isNaN(minText) == false)
+		{
+			document.getElementById("boldStuff").innerHTML = minText;
+		}
+		
+		else
+		{
+			alert("Error, du måste mata in ett tal!");
+			changeText();
+		}
+		}
+	</script>
+</body>
+</html>
