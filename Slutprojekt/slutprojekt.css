@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'meny';
+  src: url('3ds.eot?#iefix') format('embedded-opentype'),  
+  url('3ds.woff') format('woff'), 
+  url('3ds.ttf')  format('truetype'), 
+  url('3ds.svg#3ds') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body{
+	background-color:#333;
+	margin:0;
+	padding:0;
+}
+
+#bakgrundsbild{
+	width:100%;
+	height:100%;
+	background-image:url(rl.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	position:absolute;
+}
+#bakgrundsbildBattlefieldEtt{
+	width:100%;
+	height:100%;
+	background-image:url(bf1Bakgrund.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	position:absolute;
+}
+
+#bakgrundsbildBattlefieldFyra{
+	width:100%;
+	height:100%;
+	background-image:url(battlefieldFyra.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	position:absolute;
+}
+
+#bakgrundsbildFifa{
+	width:100%;
+	height:100%;
+	background-image:url(FIFATv%C3%A5.png);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	position:absolute;
+}
+
+#storbox{
+	width:100%;
+	margin:0;
+}
+
+
+
+header{
+	background-color:#675f5f;
+	width:100%;
+	height:100px;
+	overflow:hidden;
+	font-family:'meny';
+}
+nav{
+	background-color:#000;
+	width:100%;
+	height:20%;
+}
+ul{
+	list-style:none;
+	text-align:center;
+	padding:0;
+	margin:0;
+	list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+	background-color:#000;
+	line-height:40px;
+	height:100%;
+	width:25%;
+	float:left;
+}
+
+li a{
+	font-family:meny;
+	color:#675f5f;
+	text-decoration:none;
+	font-size:30px;
+	display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#FFF;
+}
+
+article{
+	width:100%;
+}
+
+.article{
+	height:100%;
+	width:40%;
+	font-size:30px;
+	color:#FFF;
+	margin-top:10px;
+	background-image:none;
+	float:left;
+	font-family:'meny';
+	padding-bottom:197px;
+	margin-left:50px;
+}
+#Rubrik{
+	color:#09F;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#RubrikBattlefield{
+	color:#F93;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#RubrikBattlefieldFyra{
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#RubrikFifa{
+	color:#FF0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#EmilsFavoritSpel{
+	margin-top:15px;
+	color:#0CF;	
+}
+
+aside{
+	width:30%;
+	height:50%;
+	float:left;
+	margin-left:340px;
+	margin-top:120px;
+	color:#FFF;
+	font-family:'meny';
+}
+footer{
+	clear:both;
+	background-color:#333;
+	width:100%;
+	height:50px;
+	margin-top:0px;
+	font-size:18px;
+	font-family:'meny';
+}
+#FooterBild{
+	float:right;
+}
+
+#Kontakt{
+	color:#FFF;
+	margin-left:10px;
+}
+.svbg{
+	height:100%;
+	width:100%;
+	background-color:rgba(0,0,0,0.5);
+	
+}
+
+
+.RlLogga{
+	margin-left:42%;
+}
+
+.Rocket{
+	width:50%;
+	height:auto;
+	float:left;
+	padding:0;
+	overflow:hidden;
+}
+
+
+
+h1{
+	color:#FFF;
+	font-size:50px;
+	text-align:center;
+	font-weight:lighter;
+	font-style:normal;
+}
+
+.pic { 
+  float: left;
+  width:951.5px;
+  height:600px;
+  margin:0;
+  overflow: hidden;
+  
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+}
+
+.grow img {
+  height: 100%;
+  width: 100%;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 110%;
+  height: 110%;
+}
+
