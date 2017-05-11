@@ -233,6 +233,28 @@ h1{
   height: 110%;
 }
 
+@media screen and (max-width: 980px) {
 
+	aside {
+		width:5%;
+		height:10%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	
+	aside{
+		
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	
+	aside{
+		
+	}
+
+}
 
 
