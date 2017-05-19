@@ -268,8 +268,13 @@ h1{
 }
 	
 	.RlLogga{
-	margin-left:35%;
+	margin-left:40%;
 }
+
+	iframe{
+	width:95%;
+	height:50%;
+	}
 }
 
 
@@ -307,8 +312,13 @@ h1{
 }
 	
 	.RlLogga{
-	margin-left:35%;
+	margin-left:40%;
 }
+
+	iframe{
+	width:95%;
+	height:50%;
+	}
 }
 
 @media screen and (max-width: 480px) {
