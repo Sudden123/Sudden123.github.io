@@ -150,6 +150,11 @@ article{
 	color:#0CF;	
 }
 
+iframe{
+	width:560px;
+	height:315px;
+	}
+
 aside{
 	width:30%;
 	height:50%;
