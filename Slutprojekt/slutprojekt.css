@@ -271,3 +271,82 @@ h1{
 	margin-left:35%;
 }
 }
+
+
+@media screen and (max-width: 650px) {
+	
+	.article {
+		height:70%;
+		width:70%;
+		font-size:30px;
+		
+		margin-top:10px;
+		background-image:none;
+		float:left;
+		
+		padding-bottom:197px;
+		margin-left:50px;
+	}
+	
+	aside{
+	width:30%;
+	height:50%;
+	clear:both;
+	margin-left:250px;
+	margin-top:0px;
+	margin-bottom:200px;
+	
+}
+	.Rocket{
+	width:100%;
+	height:auto;
+	float:left;
+	padding:0;
+	overflow:hidden;
+	margin:0;
+}
+	
+	.RlLogga{
+	margin-left:35%;
+}
+}
+
+@media screen and (max-width: 480px) {
+
+	
+	.article {
+		height:70%;
+		width:70%;
+		font-size:30px;
+		
+		margin-top:10px;
+		background-image:none;
+		float:left;
+		
+		padding-bottom:197px;
+		margin-left:50px;
+	}
+	
+	aside{
+	width:30%;
+	height:50%;
+	clear:both;
+	margin-left:250px;
+	margin-top:0px;
+	margin-bottom:200px;
+	
+}
+	.Rocket{
+	width:100%;
+	height:auto;
+	float:left;
+	padding:0;
+	overflow:hidden;
+	margin:0;
+}
+	
+	.RlLogga{
+	margin-left:35%;
+}
+
+}
