@@ -282,7 +282,7 @@ h1{
 	}
 }
 
-/*
+
 @media screen and (max-width: 650px) {
 	
 	.article {
@@ -299,12 +299,12 @@ h1{
 	}
 	
 	aside{
-	width:30%;
-	height:50%;
+	width:70%;
+	height:430px;
 	clear:both;
-	margin-left:250px;
+	margin-left:150px;
 	margin-top:0px;
-	margin-bottom:200px;
+	margin-bottom:80px;
 	
 }
 	.Rocket{
@@ -317,12 +317,12 @@ h1{
 }
 	
 	.RlLogga{
-	margin-left:40%;
+	margin-left:39%;
 }
 
 	iframe{
-	width:95%;
-	height:50%;
+	width:100%;
+	height:100%;
 	}
 }
 
@@ -343,12 +343,12 @@ h1{
 	}
 	
 	aside{
-	width:30%;
-	height:50%;
+	width:70%;
+	height:430px;
 	clear:both;
-	margin-left:250px;
+	margin-left:150px;
 	margin-top:0px;
-	margin-bottom:200px;
+	margin-bottom:80px;
 	
 }
 	.Rocket{
@@ -361,13 +361,13 @@ h1{
 }
 	
 	.RlLogga{
-	margin-left:40%;
+	margin-left:39%;
 }
 
 	iframe{
-	width:95%;
-	height:50%;
+	width:100%;
+	height:100%;
 	}
 	
 }
-*/
+
