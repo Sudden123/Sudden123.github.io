@@ -242,7 +242,7 @@ h1{
 @media screen and (max-width: 1366px) {
 
 	.article {
-		height:70%;
+		height:60%;
 		width:50%;
 		font-size:30px;
 		
@@ -256,7 +256,7 @@ h1{
 	
 	aside{
 	width:30%;
-	height:50%;
+	height:80%;
 	float:left;
 	margin-left:150px;
 	margin-top:0px;
