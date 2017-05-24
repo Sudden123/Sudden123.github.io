@@ -248,6 +248,46 @@ h1{
   height: 110%;
 }
 
+@media screen and (max-width: 1024px){
+	.article {
+		height:70%;
+		width:88%;
+		font-size:30px;
+		margin-top:10px;
+		background-image:none;
+		float:left;		
+		padding-bottom:197px;
+		margin-left:50px;
+	}
+	
+	aside{
+	width:70%;
+	height:430px;
+	clear:both;
+	margin-left:150px;
+	margin-top:0px;
+	margin-bottom:80px;
+	
+}
+	.Rocket{
+	width:100%;
+	height:auto;
+	float:left;
+	padding:0;
+	overflow:hidden;
+	margin:0;
+}
+	
+	.RlLogga{
+	margin-left:39%;
+}
+
+	iframe{
+	width:100%;
+	height:100%;
+	}
+}
+
 @media screen and (max-width: 980px) {
 
 	.article {
