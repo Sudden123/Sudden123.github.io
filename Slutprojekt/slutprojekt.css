@@ -270,9 +270,9 @@ h1{
 	
 }
 	.Rocket{
-	width:100%;
-	height:auto;
-	clear:both;
+	width:25%;
+	height:55%;
+	float:left;
 	padding:0;
 	overflow:hidden;
 	margin:0;
