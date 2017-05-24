@@ -250,9 +250,9 @@ h1{
 
 @media screen and (max-width: 1024px){
 	.article {
-		height:50%;
+		height:40%;
 		width:88%;
-		font-size:30px;
+		font-size:20px;
 		margin-top:10px;
 		background-image:none;
 		float:left;		
