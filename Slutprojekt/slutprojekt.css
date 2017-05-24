@@ -19,7 +19,7 @@
 }
 
 body{
-	background-color:#333;
+	background-color:#FFF;
 	margin:0;
 	padding:0;
 }
@@ -252,7 +252,7 @@ h1{
 	.article {
 		height:10%;
 		width:88%;
-		font-size:20px;
+		font-size:15px;
 		margin-top:10px;
 		background-image:none;
 		float:left;		
